@@ -9,6 +9,6 @@ def is_prime(n: int) -> bool:
     else:
         return True
 
-with open(input_file, 'r') as numbers:
+with open(input_file) as numbers:
     for number in numbers:
         print(1 if is_prime(int(number)) else 0)
