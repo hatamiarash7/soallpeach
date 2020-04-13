@@ -1,3 +1,5 @@
 # Soallpeach
 
 Challenge repository
+
+- prime
