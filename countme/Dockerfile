@@ -10,7 +10,7 @@ COPY main.go ./
 
 RUN CGO_ENABLED=0 go build -ldflags="-s -w" -o countme main.go
 
-FROM alpine:3.9.6
+FROM alpine:3.16.2
 
 COPY --from=builder /countme .
 
